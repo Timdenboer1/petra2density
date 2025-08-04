@@ -1,5 +1,7 @@
 #!/bin/bash
 
+##test
+
 if [[ $# -lt 3 ]]; then
     echo "Usage: ./petra2density.sh [-p] subject_id T1_file PETRA_file" >&2
     echo "Please provide the subject_id, T1_file, and PETRA_file" >&2
